@@ -1,20 +1,12 @@
-first = 123
-second = 456
-third = 789
+first = input('Введите первое число:')
+second = input('Введите второе число:')
+third = input('Введите третье число:')
 if first == second == third:
     print(3)
 if first == second or first == third or second == third:
     print(2)
 else:
     print(0)
-first = 42
-second = 69
-third = 42
-if first == second == third:
-    print(3)
-if first == second or first == third or second == third:
-    print(2)
-else:
-    print(0)
+
 
 
